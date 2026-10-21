@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-10-21T15:06:59.410Z",
- "updated": "2026-10-21T15:06:59.410Z",
+ "checked": "2026-10-21T15:27:11.533Z",
+ "updated": "2026-10-21T15:27:11.533Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1773,28 +1773,28 @@
     ]
    },
    {
-    "county": "Transylvania",
+    "county": "Transylvania ",
     "water": "East Fork French Broad River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Transylvania",
+    "county": "Transylvania ",
     "water": "Little River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Watauga",
+    "county": "Watauga ",
     "water": "Watauga River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Watauga",
+    "county": "Watauga ",
     "water": "Lake Coffey",
     "dates": [
      "2026-11-10"
@@ -1850,15 +1850,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-21T15:06:59.410Z"
+   "at": "2026-10-21T15:27:11.533Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-10-21T15:06:59.410Z"
+   "at": "2026-10-21T15:27:11.533Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-10-21T15:06:59.410Z"
+   "at": "2026-10-21T15:27:11.533Z"
   }
  }
 }
