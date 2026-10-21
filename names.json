@@ -1,9 +1,20 @@
 {
-  "_about": "Name fixes for matching NC Wildlife's stream names to Creek Peek's. Key = 'County|Name as NC Wildlife writes it', value = the name Creek Peek uses. 'skip' lists waters to ignore (ponds, lakes, fishing centers). Edit this file on GitHub; the next daily run copies it into stocking.json.",
+  "_about": "Name fixes for matching NC Wildlife's stream names to Creek Peek's. Key = 'County|Name as NC Wildlife writes it', value = the name Creek Peek uses. 'skip' lists waters to ignore. Edit this file on GitHub; the next daily run copies it into stocking.json.",
   "aliases": {
     "Jackson|Tuckaseigee River": "Tuckasegee River",
     "Swain|Tuckaseigee River": "Tuckasegee River",
-    "Burke|Jacobs Fork": "Jacob Fork"
+    "Burke|Jacobs Fork": "Jacob Fork",
+    "Alleghany|Prather Creek": "Prathers Creek",
+    "Ashe|Old Field Creek": "Old Fields Creek",
+    "Surry|Elkin River (Big Elkin Creek)": "Big Elkin Creek",
+    "Watauga|Middle Fork New River": "Middle Fork South Fork New River",
+    "Wilkes|Lewis Fork Creek": "South Prong Lewis Fork",
+    "Caldwell|Joes Fork": "Joes Creek",
+    "Buncombe|Ivy River": "Ivy Creek",
+    "Haywood|Jonathan Creek": "Jonathans Creek",
+    "Henderson|Hungry River": "(Big) Hungry River",
+    "Madison|Little Ivy River": "Little Ivy Creek",
+    "Polk|Pacolet River": "North Pacolet River"
   },
   "skip": [
     "Cumberland|Pechman Fishing Center Ponds"
