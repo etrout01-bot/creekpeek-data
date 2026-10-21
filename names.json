@@ -1,0 +1,11 @@
+{
+  "_about": "Name fixes for matching NC Wildlife's stream names to Creek Peek's. Key = 'County|Name as NC Wildlife writes it', value = the name Creek Peek uses. 'skip' lists waters to ignore (ponds, lakes, fishing centers). Edit this file on GitHub; the next daily run copies it into stocking.json.",
+  "aliases": {
+    "Jackson|Tuckaseigee River": "Tuckasegee River",
+    "Swain|Tuckaseigee River": "Tuckasegee River",
+    "Burke|Jacobs Fork": "Jacob Fork"
+  },
+  "skip": [
+    "Cumberland|Pechman Fishing Center Ponds"
+  ]
+}
