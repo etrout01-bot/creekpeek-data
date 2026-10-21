@@ -19,6 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Start from the newest saved data
+        run: git fetch origin "$GITHUB_REF_NAME" && git reset --hard "origin/$GITHUB_REF_NAME"
+
       - uses: actions/setup-node@v5
         with:
           node-version: 24
@@ -37,7 +40,7 @@ jobs:
           git config user.email "41898741+github-actions[bot]@users.noreply.github.com"
           git add stocking.json
           git diff --cached --quiet || git commit -m "Stocking data $(date -u +%Y-%m-%d)"
-          git push
+          git push origin "HEAD:$GITHUB_REF_NAME"
 
       - name: Report a failed source
         if: steps.run.outcome == 'failure'
