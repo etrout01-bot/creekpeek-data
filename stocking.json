@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-10-21T15:34:08.970Z",
- "updated": "2026-10-21T15:27:11.533Z",
+ "checked": "2026-10-21T16:49:49.615Z",
+ "updated": "2026-10-21T16:49:49.615Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1838,11 +1838,22 @@
   ]
  },
  "stocked": [],
- "recentRange": "October 19 thru October 20, 2026",
+ "recentRange": "October 19 thru October 21, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
-  "Burke|Jacobs Fork": "Jacob Fork"
+  "Burke|Jacobs Fork": "Jacob Fork",
+  "Alleghany|Prather Creek": "Prathers Creek",
+  "Ashe|Old Field Creek": "Old Fields Creek",
+  "Surry|Elkin River (Big Elkin Creek)": "Big Elkin Creek",
+  "Watauga|Middle Fork New River": "Middle Fork South Fork New River",
+  "Wilkes|Lewis Fork Creek": "South Prong Lewis Fork",
+  "Caldwell|Joes Fork": "Joes Creek",
+  "Buncombe|Ivy River": "Ivy Creek",
+  "Haywood|Jonathan Creek": "Jonathans Creek",
+  "Henderson|Hungry River": "(Big) Hungry River",
+  "Madison|Little Ivy River": "Little Ivy Creek",
+  "Polk|Pacolet River": "North Pacolet River"
  },
  "skip": [
   "Cumberland|Pechman Fishing Center Ponds"
@@ -1850,15 +1861,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-21T15:34:08.970Z"
+   "at": "2026-10-21T16:49:49.615Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-10-21T15:34:08.970Z"
+   "at": "2026-10-21T16:49:49.615Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-10-21T15:34:08.970Z"
+   "at": "2026-10-21T16:49:49.615Z"
   }
  }
 }
