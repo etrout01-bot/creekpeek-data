@@ -1,0 +1,46 @@
+name: Update stocking data
+
+on:
+  schedule:
+    - cron: '30 18 * * *'   # every day at 18:30 UTC (2:30 pm Eastern in summer, 1:30 pm in winter)
+  workflow_dispatch:         # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stocking
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pdftotext
+        run: command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+
+      - name: Read NC Wildlife stocking pages
+        id: run
+        run: node scripts/update-stocking.mjs
+        continue-on-error: true
+
+      - name: Save stocking.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898741+github-actions[bot]@users.noreply.github.com"
+          git add stocking.json
+          git diff --cached --quiet || git commit -m "Stocking data $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Report a failed source
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "::error::One or more NC Wildlife sources could not be read. The previous data was kept. See the 'status' section of stocking.json."
+          exit 1
