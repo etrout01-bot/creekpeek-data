@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-10-25T21:01:59.141Z",
- "updated": "2026-10-25T21:01:59.141Z",
+ "checked": "2026-10-26T22:44:17.830Z",
+ "updated": "2026-10-26T22:44:17.830Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1838,7 +1838,7 @@
   ]
  },
  "stocked": [],
- "recentRange": "",
+ "recentRange": "October 26, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -1860,17 +1860,16 @@
  ],
  "status": {
   "schedule": {
-   "ok": false,
-   "at": "2026-10-25T21:01:59.141Z",
-   "error": "schedule is not a PDF"
+   "ok": true,
+   "at": "2026-10-26T22:44:17.830Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-10-25T21:01:59.141Z"
+   "at": "2026-10-26T22:44:17.830Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-10-25T21:01:59.141Z"
+   "at": "2026-10-26T22:44:17.830Z"
   }
  }
 }
