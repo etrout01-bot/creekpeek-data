@@ -1,8 +1,9 @@
 name: Update stocking data
 
 on:
-  schedule:
-    - cron: '30 18 * * *'   # every day at 18:30 UTC (2:30 pm Eastern in summer, 1:30 pm in winter)
+    schedule:
+      - cron: '17 18 * * *'   # early afternoon: 2:17 pm EDT / 1:17 pm EST (NC Wildlife posts after noon)
+      - cron: '47 22 * * *'   # early evening: 6:47 pm EDT / 5:47 pm EST, catches later postings
   workflow_dispatch:         # adds a "Run workflow" button on the Actions tab
 
 permissions:
