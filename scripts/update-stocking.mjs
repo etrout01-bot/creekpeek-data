@@ -52,6 +52,14 @@ const strip = s => decode(s.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim(
 const title = s => s.toLowerCase().replace(/\b([a-z])/g, c => c.toUpperCase()).replace(/\bMc([a-z])/g, (_, c) => 'Mc' + c.toUpperCase()).replace(/\bDh\b/g, 'DH');
 const monthNum = s => { const u = s.trim().toUpperCase(); const i = MONTHS.indexOf(u); return i >= 0 ? i + 1 : MON3.indexOf(u.slice(0, 3)) + 1 || 0; };
 
+// ncpaws.org shows a "Scheduled System Maintenance" page in place of everything during outages.
+// Say so plainly instead of trying to read it as data.
+function outageCheck(text) {
+  if (!/Scheduled System Maintenance|Service Unavailable/i.test(text)) return;
+  const when = strip((text.match(/Service Unavailable\s*-?\s*([^<]*)/i) || [])[1] || '');
+  throw new Error(`ncpaws.org is down for scheduled maintenance${when ? ' (' + when + ')' : ''}`);
+}
+
 // ---------- 1. Hatchery Supported schedule (PDF) ----------
 function parseSchedulePdfText(text) {
   // Line by line: a "COUNTY:" line starts a county (a page can hold several), the
@@ -90,7 +98,7 @@ function parseSchedulePdfText(text) {
 }
 async function scheduleFromPdf() {
   const pdf = FIXTURES ? fixture('hs_schedule.pdf', true) : await get(URLS.hsPdf, { binary: true });
-  if (!pdf || pdf.slice(0, 4).toString() !== '%PDF') throw new Error('schedule is not a PDF');
+  if (!pdf || pdf.slice(0, 4).toString() !== '%PDF') { outageCheck(pdf ? pdf.toString('utf8') : ''); throw new Error('schedule is not a PDF'); }
   const dir = mkdtempSync(join(tmpdir(), 'cp-'));
   writeFileSync(join(dir, 's.pdf'), pdf);
   const text = execFileSync('pdftotext', ['-layout', join(dir, 's.pdf'), '-'], { encoding: 'utf8' });
@@ -144,6 +152,8 @@ async function delayedHarvest() {
 // in the results area, or failing that the list items, and keep the raw text too.
 async function recentlyStocked() {
   const html = FIXTURES ? fixture('paws.html') : await get(URLS.paws);
+  outageCheck(html);
+  if (!/id="dateRangeHeading"/i.test(html)) throw new Error('daily stocking page has changed (no date heading)');
   const range = strip((html.match(/id="dateRangeHeading"[^>]*>([\s\S]*?)<\//i) || [])[1] || '');
   const rm = range.match(/([A-Za-z]+)\s+(\d{1,2})\s+thru\s+([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/i);
   const endDate = rm ? iso(+rm[5], monthNum(rm[3]), +rm[4]) : null;
