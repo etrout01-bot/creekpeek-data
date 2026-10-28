@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-10-28T01:48:39.109Z",
- "updated": "2026-10-27T22:20:55.422Z",
+ "checked": "2026-10-28T22:40:06.664Z",
+ "updated": "2026-10-28T22:40:06.664Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -456,12 +456,19 @@
   },
   {
    "county": "Wilkes",
+   "water": "East Prong Roaring River",
+   "dh": true,
+   "dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "county": "Wilkes",
    "water": "East Prong Roaring River Upper",
    "dh": true,
    "dates": [
     "2026-04-30",
-    "2026-06-05",
-    "2026-11-02"
+    "2026-06-05"
    ]
   },
   {
@@ -1260,7 +1267,8 @@
    "dh": true,
    "dates": [
     "2026-05-04",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-09"
    ]
   },
   {
@@ -1838,7 +1846,7 @@
   ]
  },
  "stocked": [],
- "recentRange": "October 26 thru October 27, 2026",
+ "recentRange": "October 26 thru October 28, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -1861,15 +1869,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-28T01:48:39.109Z"
+   "at": "2026-10-28T22:40:06.664Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-10-28T01:48:39.109Z"
+   "at": "2026-10-28T22:40:06.664Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-10-28T01:48:39.109Z"
+   "at": "2026-10-28T22:40:06.664Z"
   }
  }
 }
