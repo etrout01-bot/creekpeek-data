@@ -2,13 +2,15 @@
 
 This repository feeds the stocking dates in the Creek Peek app (creekpeek.netlify.app).
 
-Once a day, a GitHub Action runs `scripts/update-stocking.mjs`. It reads three NC Wildlife sources and saves the result to `stocking.json`, which the app downloads:
+Twice a day (about 7 AM and 2:30 PM Eastern), a GitHub Action runs `scripts/update-stocking.mjs`. It reads three NC Wildlife sources and saves the result to `stocking.json`, which the app downloads:
 
 | Source | What it gives |
 |---|---|
 | Hatchery Supported stocking schedule (PDF on ncpaws.org) | Every planned stocking date for the season, by county and stream. Delayed Harvest rows are marked. |
 | Delayed Harvest schedule (ncwildlife.gov) | The current month's Delayed Harvest dates. |
 | Daily Trout Stockings (ncpaws.org) | What was actually stocked in the last day or two. Kept for 90 days. |
+
+`stocking.json` also has `events`: stockings the job saw for the first time on each run (when it saw them, the date, county and stream), kept 30 days. The app doesn't use it yet; it's there for future "your favorite was stocked" notifications.
 
 ## If something breaks
 
