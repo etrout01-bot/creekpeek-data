@@ -19,6 +19,7 @@ const OUT = process.env.OUT || 'stocking.json';
 const NAMES = process.env.NAMES || 'names.json';
 const FIXTURES = process.env.FIXTURES || '';
 const KEEP_DAYS = 90;
+const EVENT_DAYS = 30;    // how long the "new stockings" list keeps an entry
 const UA = 'CreekPeekStockingHelper/1.0 (personal trout-flow app; once a day)';
 const URLS = {
   hsPdf: 'https://ncpaws.org/PAWS/Fish/Stocking/Reports/RSReports.aspx?ReportType=Public',
@@ -201,6 +202,18 @@ for (const s of [...((recent && recent.rows) || []), ...(prev.stocked || [])]) {
 }
 stocked.sort((a, b) => b.date.localeCompare(a.date));
 
+// New confirmed stockings: rows on today's daily list that weren't in the previous file. Each run adds
+// the ones it found first ("seen" is when this job first saw them), kept 30 days, newest first. This is
+// the list a future "your favorite was stocked" notification would read.
+const known = new Set((prev.stocked || []).map(s => `${s.date}|${s.county}|${s.water}`));
+const fresh = ((recent && recent.rows) || []).filter(s => s.date && !known.has(`${s.date}|${s.county}|${s.water}`))
+  .map(s => ({ seen: now.toISOString(), date: s.date, county: s.county, water: s.water }));
+const evCutoff = new Date(now.getTime() - EVENT_DAYS * 864e5).toISOString();
+const evSeen = new Set();
+const events = [...fresh, ...(prev.events || [])].filter(e => {
+  const k = `${e.date}|${e.county}|${e.water}`; if (e.seen < evCutoff || evSeen.has(k)) return false; evSeen.add(k); return true;
+}).sort((a, b) => b.seen.localeCompare(a.seen) || b.date.localeCompare(a.date));
+
 const out = {
   version: 1,
   checked: now.toISOString(),
@@ -208,6 +221,7 @@ const out = {
   schedule: schedule || prev.schedule || [],
   delayedHarvest: dhMonth || prev.delayedHarvest || null,
   stocked,
+  events,
   recentRange: recent ? recent.range : prev.recentRange,
   aliases: names.aliases || {},
   skip: names.skip || [],
@@ -216,6 +230,6 @@ const out = {
 const body = o => JSON.stringify({ ...o, checked: undefined, updated: undefined, status: undefined });
 if (body(out) !== body(prev)) out.updated = now.toISOString();
 writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
-console.log(`schedule ${out.schedule.length} rows · DH ${out.delayedHarvest ? out.delayedHarvest.month + ' ' + out.delayedHarvest.rows.length + ' rows' : 'none'} · stocked ${stocked.length} (${(recent && recent.rows.length) || 0} new today)`);
+console.log(`schedule ${out.schedule.length} rows · DH ${out.delayedHarvest ? out.delayedHarvest.month + ' ' + out.delayedHarvest.rows.length + ' rows' : 'none'} · stocked ${stocked.length} (${(recent && recent.rows.length) || 0} on today's list, ${fresh.length} new since the last check)`);
 const failed = Object.entries(status).filter(([, v]) => !v.ok).map(([k]) => k);
 if (failed.length) { console.error(`failed: ${failed.join(', ')} (kept the previous data for these)`); process.exit(1); }
