@@ -2,8 +2,12 @@ name: Update stocking data
 
 on:
   schedule:
-    - cron: '7 11 * * *'    # morning: 7:07 am EDT / 6:07 am EST, picks up anything posted late the day before
-    - cron: '37 18 * * *'   # afternoon: 2:37 pm EDT / 1:37 pm EST (NC Wildlife posts after noon)
+    # GitHub often starts scheduled runs late (seen 3-6 hours) or skips them, so there are several.
+    # Times are UTC; Eastern is 5 hours behind in winter (EST) and 4 in summer (EDT).
+    - cron: '7 11 * * *'    # morning: 6:07 am EST / 7:07 am EDT, picks up anything posted late the day before
+    - cron: '37 17 * * *'   # 12:37 pm EST / 1:37 pm EDT (NC Wildlife posts after noon)
+    - cron: '37 19 * * *'   #  2:37 pm EST / 3:37 pm EDT
+    - cron: '37 21 * * *'   #  4:37 pm EST / 5:37 pm EDT, catches later postings
   workflow_dispatch:         # adds a "Run workflow" button on the Actions tab
 
 permissions:
