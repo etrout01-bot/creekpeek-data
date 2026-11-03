@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-03T03:02:27.597Z",
- "updated": "2026-11-02T20:43:05.741Z",
+ "checked": "2026-11-03T17:25:18.189Z",
+ "updated": "2026-11-03T17:25:18.189Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1845,9 +1845,128 @@
    }
   ]
  },
- "stocked": [],
- "events": [],
- "recentRange": "November 02, 2026",
+ "stocked": [
+  {
+   "date": "2026-11-03",
+   "county": "Ashe",
+   "water": "Big Horse Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-03",
+   "county": "Clay",
+   "water": "Fires Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-03",
+   "county": "Henderson",
+   "water": "North Mills River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-03",
+   "county": "Jackson",
+   "water": "Tuckaseigee River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-03",
+   "county": "Wilkes",
+   "water": "Elk Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-03",
+   "county": "Wilkes",
+   "water": "Reddies River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-02",
+   "county": "Ashe",
+   "water": "Helton Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-02",
+   "county": "Wilkes",
+   "water": "East Prong Roaring River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-02",
+   "county": "Wilkes",
+   "water": "Stone Mountain Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  }
+ ],
+ "events": [
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Ashe",
+   "water": "Big Horse Creek"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Clay",
+   "water": "Fires Creek"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Henderson",
+   "water": "North Mills River"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Jackson",
+   "water": "Tuckaseigee River"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Wilkes",
+   "water": "Elk Creek"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-03",
+   "county": "Wilkes",
+   "water": "Reddies River"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-02",
+   "county": "Ashe",
+   "water": "Helton Creek"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-02",
+   "county": "Wilkes",
+   "water": "East Prong Roaring River"
+  },
+  {
+   "seen": "2026-11-03T17:25:18.189Z",
+   "date": "2026-11-02",
+   "county": "Wilkes",
+   "water": "Stone Mountain Creek"
+  }
+ ],
+ "recentRange": "November 02 thru November 03, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -1870,15 +1989,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-03T03:02:27.597Z"
+   "at": "2026-11-03T17:25:18.189Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-03T03:02:27.597Z"
+   "at": "2026-11-03T17:25:18.189Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-03T03:02:27.597Z"
+   "at": "2026-11-03T17:25:18.189Z"
   }
  }
 }
