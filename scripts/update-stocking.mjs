@@ -149,33 +149,44 @@ async function delayedHarvest() {
 }
 
 // ---------- 3. ncpaws recently stocked ----------
-// The list only exists on days with stockings; until its layout has been seen, read any table
-// in the results area, or failing that the list items, and keep the raw text too.
+// The list only exists on days with stockings. Layout seen Nov 2, 2026: one table per day
+// (id mondayGV, tuesdayGV, ...), each starting with a date row ("Monday - November 02, 2026")
+// and then a heading row (County / Stream / Classification / sign), then one row per water.
+// The heading above the tables is a single date ("November 02, 2026") or a range
+// ("October 26 thru October 30, 2026").
+const dateFrom = t => { const m = (t || '').match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/); return m && monthNum(m[1]) ? iso(+m[3], monthNum(m[1]), +m[2]) : null; };
 async function recentlyStocked() {
   const html = FIXTURES ? fixture('paws.html') : await get(URLS.paws);
   outageCheck(html);
   if (!/id="dateRangeHeading"/i.test(html)) throw new Error('daily stocking page has changed (no date heading)');
   const range = strip((html.match(/id="dateRangeHeading"[^>]*>([\s\S]*?)<\//i) || [])[1] || '');
-  const rm = range.match(/([A-Za-z]+)\s+(\d{1,2})\s+thru\s+([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/i);
-  const endDate = rm ? iso(+rm[5], monthNum(rm[3]), +rm[4]) : null;
+  const endDate = dateFrom(range.replace(/^.*\bthru\b/i, ''));
   if (/id="noStockingContainer"/i.test(html) && /no trout were stocked/i.test(html)) return { range, rows: [] };
   const main = (html.match(/id="dailyStockingMainContent"[\s\S]*?id="dailyStockingFooter"/i) || [])[0] || html;
   const rows = [];
-  const tb = (main.match(/<table[\s\S]*?<\/table>/i) || [])[0];
-  if (tb) {
+  for (const tb of main.match(/<table[\s\S]*?<\/table>/gi) || []) {
     const trs = [...tb.matchAll(/<tr[\s\S]*?<\/tr>/gi)].map(r => [...r[0].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/gi)].map(c => strip(c[1])));
-    const head = (trs[0] || []).map(h => h.toLowerCase());
-    const col = re => head.findIndex(h => re.test(h));
-    const ci = col(/county/), wi = col(/water|stream|location|name/), di = col(/date/);
-    for (const r of trs.slice(1)) {
+    let date = null, ci = -1, wi = -1, ki = -1, started = false;
+    for (const r of trs) {
       if (!r.some(Boolean)) continue;
-      const dm = di >= 0 ? (r[di] || '').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/) : null;
-      rows.push({ date: dm ? iso(+dm[3], +dm[1], +dm[2]) : endDate, dateApprox: !dm || undefined,
-        county: ci >= 0 ? title(r[ci]) : '', water: wi >= 0 ? r[wi] : r.join(' | '), raw: r.join(' | ') });
+      const low = r.map(c => c.toLowerCase());
+      // the day's date row: one wide cell with a date in it
+      if (!started && r.filter(Boolean).length === 1 && dateFrom(r.find(Boolean))) { date = dateFrom(r.find(Boolean)); continue; }
+      // the heading row: County / Stream / Classification
+      if (!started && low.some(c => /^county\b/.test(c)) && low.some(c => /stream|water/.test(c))) {
+        ci = low.findIndex(c => /^county\b/.test(c)); wi = low.findIndex(c => /stream|water/.test(c)); ki = low.findIndex(c => /classif|type/.test(c));
+        started = true; continue;
+      }
+      if (!started) continue;
+      const county = ci >= 0 ? r[ci] : '', water = wi >= 0 ? r[wi] : '';
+      if (!county || !water) continue;
+      const cls = ki >= 0 ? r[ki] : '';
+      rows.push({ date: date || endDate, dateApprox: !date || undefined, county: title(county), water: title(water), cls: cls || undefined, dh: /delayed/i.test(cls) || undefined });
     }
-  } else {
-    for (const li of main.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)) rows.push({ date: endDate, dateApprox: true, county: '', water: strip(li[1]), raw: strip(li[1]) });
   }
+  // a results area with stockings but no table we can read means the page changed again
+  if (!rows.length && /Recently Stocked/i.test(main) && /<td[^>]*>\s*[A-Za-z]/i.test(main.split(/Recently Stocked/i)[1] || ''))
+    throw new Error('daily stocking list has rows but none could be read (page layout changed)');
   return { range, rows };
 }
 
