@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-04T00:09:45.851Z",
- "updated": "2026-11-03T17:37:24.001Z",
+ "checked": "2026-11-04T01:37:04.963Z",
+ "updated": "2026-11-04T01:37:04.963Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1781,28 +1781,28 @@
     ]
    },
    {
-    "county": "Transylvania ",
+    "county": "Transylvania",
     "water": "East Fork French Broad River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Transylvania ",
+    "county": "Transylvania",
     "water": "Little River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Watauga ",
+    "county": "Watauga",
     "water": "Watauga River",
     "dates": [
      "2026-11-10"
     ]
    },
    {
-    "county": "Watauga ",
+    "county": "Watauga",
     "water": "Lake Coffey",
     "dates": [
      "2026-11-10"
@@ -1982,7 +1982,12 @@
   "Henderson|Hungry River": "(Big) Hungry River",
   "Madison|Little Ivy River": "Little Ivy Creek",
   "Polk|Pacolet River": "North Pacolet River",
-  "Henderson|North Mills River": "North Fork Mills River"
+  "Henderson|North Mills River": "North Fork Mills River",
+  "Ashe|North Beaver Creek": "Beaver Creek",
+  "Caldwell|Pee Dee River": "Yadkin River",
+  "Haywood|W. Fork Pigeon Rvr (Left Prong)": "West Fork Pigeon River",
+  "Henderson|Rocky Broad River": "Rutherford|(Rocky) Broad River",
+  "Wilkes|Stony Fork": "Watauga|Stony Fork"
  },
  "skip": [
   "Cumberland|Pechman Fishing Center Ponds"
@@ -1990,15 +1995,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-04T00:09:45.851Z"
+   "at": "2026-11-04T01:37:04.963Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-04T00:09:45.851Z"
+   "at": "2026-11-04T01:37:04.963Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-04T00:09:45.851Z"
+   "at": "2026-11-04T01:37:04.963Z"
   }
  }
 }
