@@ -141,7 +141,8 @@ async function delayedHarvest() {
   const ci = head.findIndex(h => h.includes('county')), si = head.findIndex(h => h.includes('stream') || h.includes('water'));
   const di = head.findIndex((h, i) => i !== ci && i !== si);
   if (ci < 0 || si < 0 || di < 0) throw new Error(`unexpected DH table columns: ${head.join(', ')}`);
-  const rows = table.slice(1).map(r => ({ county: title(r[ci] || ''), water: (r[si] || '').trim(),
+  // NC Wildlife's sheet sometimes has a trailing space after the county ("Watauga "), which broke matching.
+  const rows = table.slice(1).map(r => ({ county: title((r[ci] || '').trim()), water: (r[si] || '').trim().replace(/\s+/g, ' '),
     dates: String(r[di] || '').split(/[,&]|\band\b/).map(x => +x.trim()).filter(d => d >= 1 && d <= 31).map(d => iso(year, mo, d)) }))
     .filter(r => r.county && r.water);
   if (!rows.length) throw new Error('DH table is empty');
