@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-04T11:07:21.162Z",
- "updated": "2026-11-04T01:37:04.963Z",
+ "checked": "2026-11-04T17:38:08.165Z",
+ "updated": "2026-11-04T17:38:08.165Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,34 @@
  },
  "stocked": [
   {
+   "date": "2026-11-04",
+   "county": "Burke",
+   "water": "Jacobs Fork",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-04",
+   "county": "Caldwell",
+   "water": "Wilson Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-04",
+   "county": "Macon",
+   "water": "Nantahala River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-04",
+   "county": "Swain",
+   "water": "Tuckaseigee River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-03",
    "county": "Ashe",
    "water": "Big Horse Creek",
@@ -1912,6 +1940,30 @@
  ],
  "events": [
   {
+   "seen": "2026-11-04T17:38:08.165Z",
+   "date": "2026-11-04",
+   "county": "Burke",
+   "water": "Jacobs Fork"
+  },
+  {
+   "seen": "2026-11-04T17:38:08.165Z",
+   "date": "2026-11-04",
+   "county": "Caldwell",
+   "water": "Wilson Creek"
+  },
+  {
+   "seen": "2026-11-04T17:38:08.165Z",
+   "date": "2026-11-04",
+   "county": "Macon",
+   "water": "Nantahala River"
+  },
+  {
+   "seen": "2026-11-04T17:38:08.165Z",
+   "date": "2026-11-04",
+   "county": "Swain",
+   "water": "Tuckaseigee River"
+  },
+  {
    "seen": "2026-11-03T17:25:18.189Z",
    "date": "2026-11-03",
    "county": "Ashe",
@@ -1966,7 +2018,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 02 thru November 03, 2026",
+ "recentRange": "November 02 thru November 04, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -1995,15 +2047,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-04T11:07:21.162Z"
+   "at": "2026-11-04T17:38:08.165Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-04T11:07:21.162Z"
+   "at": "2026-11-04T17:38:08.165Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-04T11:07:21.162Z"
+   "at": "2026-11-04T17:38:08.165Z"
   }
  }
 }
