@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-05T11:07:22.073Z",
- "updated": "2026-11-04T17:38:08.165Z",
+ "checked": "2026-11-05T17:37:22.361Z",
+ "updated": "2026-11-05T17:37:22.361Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,55 @@
  },
  "stocked": [
   {
+   "date": "2026-11-05",
+   "county": "Graham",
+   "water": "Big Snowbird Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Big Laurel Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Shelton Laurel Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Spring Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Catawba River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Curtis Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Mill Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-04",
    "county": "Burke",
    "water": "Jacobs Fork",
@@ -1940,6 +1989,48 @@
  ],
  "events": [
   {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "Graham",
+   "water": "Big Snowbird Creek"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Big Laurel Creek"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Shelton Laurel Creek"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "Madison",
+   "water": "Spring Creek"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Catawba River"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Curtis Creek"
+  },
+  {
+   "seen": "2026-11-05T17:37:22.361Z",
+   "date": "2026-11-05",
+   "county": "McDowell",
+   "water": "Mill Creek"
+  },
+  {
    "seen": "2026-11-04T17:38:08.165Z",
    "date": "2026-11-04",
    "county": "Burke",
@@ -2018,7 +2109,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 02 thru November 04, 2026",
+ "recentRange": "November 02 thru November 05, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2047,15 +2138,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-05T11:07:22.073Z"
+   "at": "2026-11-05T17:37:22.361Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-05T11:07:22.073Z"
+   "at": "2026-11-05T17:37:22.361Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-05T11:07:22.073Z"
+   "at": "2026-11-05T17:37:22.361Z"
   }
  }
 }
