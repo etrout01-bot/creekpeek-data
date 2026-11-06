@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-06T11:07:19.560Z",
- "updated": "2026-11-05T17:37:22.361Z",
+ "checked": "2026-11-06T17:37:23.816Z",
+ "updated": "2026-11-06T17:37:23.816Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,13 @@
  },
  "stocked": [
   {
+   "date": "2026-11-06",
+   "county": "Surry",
+   "water": "Mitchell River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-05",
    "county": "Graham",
    "water": "Big Snowbird Creek",
@@ -1989,6 +1996,12 @@
  ],
  "events": [
   {
+   "seen": "2026-11-06T17:37:23.816Z",
+   "date": "2026-11-06",
+   "county": "Surry",
+   "water": "Mitchell River"
+  },
+  {
    "seen": "2026-11-05T17:37:22.361Z",
    "date": "2026-11-05",
    "county": "Graham",
@@ -2109,7 +2122,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 02 thru November 05, 2026",
+ "recentRange": "November 02 thru November 06, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2138,15 +2151,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-06T11:07:19.560Z"
+   "at": "2026-11-06T17:37:23.816Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-06T11:07:19.560Z"
+   "at": "2026-11-06T17:37:23.816Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-06T11:07:19.560Z"
+   "at": "2026-11-06T17:37:23.816Z"
   }
  }
 }
