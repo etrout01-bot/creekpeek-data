@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-09T11:07:30.012Z",
- "updated": "2026-11-08T11:07:22.501Z",
+ "checked": "2026-11-09T17:37:18.982Z",
+ "updated": "2026-11-09T17:37:18.982Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,34 @@
  },
  "stocked": [
   {
+   "date": "2026-11-09",
+   "county": "Haywood",
+   "water": "West Fork Pigeon River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-09",
+   "county": "Jackson",
+   "water": "Tuckaseigee River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-09",
+   "county": "Mitchell",
+   "water": "Cane Creek",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-09",
+   "county": "Yancey",
+   "water": "Cane River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-06",
    "county": "Surry",
    "water": "Mitchell River",
@@ -1996,6 +2024,30 @@
  ],
  "events": [
   {
+   "seen": "2026-11-09T17:37:18.982Z",
+   "date": "2026-11-09",
+   "county": "Haywood",
+   "water": "West Fork Pigeon River"
+  },
+  {
+   "seen": "2026-11-09T17:37:18.982Z",
+   "date": "2026-11-09",
+   "county": "Jackson",
+   "water": "Tuckaseigee River"
+  },
+  {
+   "seen": "2026-11-09T17:37:18.982Z",
+   "date": "2026-11-09",
+   "county": "Mitchell",
+   "water": "Cane Creek"
+  },
+  {
+   "seen": "2026-11-09T17:37:18.982Z",
+   "date": "2026-11-09",
+   "county": "Yancey",
+   "water": "Cane River"
+  },
+  {
    "seen": "2026-11-06T17:37:23.816Z",
    "date": "2026-11-06",
    "county": "Surry",
@@ -2122,7 +2174,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 02 thru November 06, 2026",
+ "recentRange": "November 09, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2151,15 +2203,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-09T11:07:30.012Z"
+   "at": "2026-11-09T17:37:18.982Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-09T11:07:30.012Z"
+   "at": "2026-11-09T17:37:18.982Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-09T11:07:30.012Z"
+   "at": "2026-11-09T17:37:18.982Z"
   }
  }
 }
