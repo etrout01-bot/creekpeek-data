@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-10T11:07:21.217Z",
- "updated": "2026-11-09T17:37:18.982Z",
+ "checked": "2026-11-10T17:37:20.765Z",
+ "updated": "2026-11-10T17:37:20.765Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,41 @@
  },
  "stocked": [
   {
+   "date": "2026-11-10",
+   "county": "Polk",
+   "water": "Green River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-10",
+   "county": "Transylvania",
+   "water": "East Fork French Broad River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-10",
+   "county": "Transylvania",
+   "water": "Little River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-10",
+   "county": "Watauga",
+   "water": "Lake Coffey",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-10",
+   "county": "Watauga",
+   "water": "Watauga River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-09",
    "county": "Haywood",
    "water": "West Fork Pigeon River",
@@ -2024,6 +2059,36 @@
  ],
  "events": [
   {
+   "seen": "2026-11-10T17:37:20.765Z",
+   "date": "2026-11-10",
+   "county": "Polk",
+   "water": "Green River"
+  },
+  {
+   "seen": "2026-11-10T17:37:20.765Z",
+   "date": "2026-11-10",
+   "county": "Transylvania",
+   "water": "East Fork French Broad River"
+  },
+  {
+   "seen": "2026-11-10T17:37:20.765Z",
+   "date": "2026-11-10",
+   "county": "Transylvania",
+   "water": "Little River"
+  },
+  {
+   "seen": "2026-11-10T17:37:20.765Z",
+   "date": "2026-11-10",
+   "county": "Watauga",
+   "water": "Lake Coffey"
+  },
+  {
+   "seen": "2026-11-10T17:37:20.765Z",
+   "date": "2026-11-10",
+   "county": "Watauga",
+   "water": "Watauga River"
+  },
+  {
    "seen": "2026-11-09T17:37:18.982Z",
    "date": "2026-11-09",
    "county": "Haywood",
@@ -2174,7 +2239,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 09, 2026",
+ "recentRange": "November 09 thru November 10, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2203,15 +2268,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-10T11:07:21.217Z"
+   "at": "2026-11-10T17:37:20.765Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-10T11:07:21.217Z"
+   "at": "2026-11-10T17:37:20.765Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-10T11:07:21.217Z"
+   "at": "2026-11-10T17:37:20.765Z"
   }
  }
 }
