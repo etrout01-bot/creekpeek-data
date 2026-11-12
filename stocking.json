@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-12T11:07:35.354Z",
- "updated": "2026-11-11T17:37:24.833Z",
+ "checked": "2026-11-12T17:37:20.053Z",
+ "updated": "2026-11-12T17:37:20.053Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -1847,6 +1847,27 @@
  },
  "stocked": [
   {
+   "date": "2026-11-12",
+   "county": "Ashe",
+   "water": "South Fork New River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-12",
+   "county": "Ashe",
+   "water": "Trout Lake",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
+   "date": "2026-11-12",
+   "county": "Surry",
+   "water": "Ararat River",
+   "cls": "Delayed Harvest",
+   "dh": true
+  },
+  {
    "date": "2026-11-10",
    "county": "Polk",
    "water": "Green River",
@@ -2059,6 +2080,24 @@
  ],
  "events": [
   {
+   "seen": "2026-11-12T17:37:20.053Z",
+   "date": "2026-11-12",
+   "county": "Ashe",
+   "water": "South Fork New River"
+  },
+  {
+   "seen": "2026-11-12T17:37:20.053Z",
+   "date": "2026-11-12",
+   "county": "Ashe",
+   "water": "Trout Lake"
+  },
+  {
+   "seen": "2026-11-12T17:37:20.053Z",
+   "date": "2026-11-12",
+   "county": "Surry",
+   "water": "Ararat River"
+  },
+  {
    "seen": "2026-11-10T17:37:20.765Z",
    "date": "2026-11-10",
    "county": "Polk",
@@ -2239,7 +2278,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 09 thru November 11, 2026",
+ "recentRange": "November 09 thru November 12, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2268,15 +2307,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-12T11:07:35.354Z"
+   "at": "2026-11-12T17:37:20.053Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-12T11:07:35.354Z"
+   "at": "2026-11-12T17:37:20.053Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-12T11:07:35.354Z"
+   "at": "2026-11-12T17:37:20.053Z"
   }
  }
 }
