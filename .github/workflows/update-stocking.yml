@@ -39,11 +39,18 @@ jobs:
         run: node scripts/update-stocking.mjs
         continue-on-error: true
 
+      - name: Send stocking alerts to the phone app
+        id: notify
+        run: node scripts/notify-stocking.mjs
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}   # Firebase key, stored only as a GitHub secret
+        continue-on-error: true
+
       - name: Save stocking.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898741+github-actions[bot]@users.noreply.github.com"
-          git add stocking.json
+          git add stocking.json $(ls notified.json 2>/dev/null)
           git diff --cached --quiet || git commit -m "Stocking data $(date -u +%Y-%m-%d)"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
@@ -51,4 +58,10 @@ jobs:
         if: steps.run.outcome == 'failure'
         run: |
           echo "::error::One or more NC Wildlife sources could not be read. The previous data was kept. See the 'status' section of stocking.json."
+          exit 1
+
+      - name: Report failed alerts
+        if: steps.notify.outcome == 'failure'
+        run: |
+          echo "::error::Some stocking alerts couldn't be sent (see the 'Send stocking alerts' step). They'll be tried again on the next run."
           exit 1
