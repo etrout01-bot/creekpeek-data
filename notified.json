@@ -1,0 +1,141 @@
+{
+ "_about": "Stockings already announced by stocking alerts (scripts/notify-stocking.mjs). Safe to delete entries; never edit by hand otherwise.",
+ "sent": {
+  "2026-11-13|Mitchell|North Toe River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-12|Ashe|South Fork New River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-12|Ashe|Trout Lake|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-12|Surry|Ararat River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-10|Polk|Green River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-10|Transylvania|East Fork French Broad River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-10|Transylvania|Little River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-10|Watauga|Lake Coffey|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-10|Watauga|Watauga River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-09|Haywood|West Fork Pigeon River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.142Z",
+   "skipped": "first run"
+  },
+  "2026-11-09|Jackson|Tuckaseigee River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-09|Mitchell|Cane Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-09|Yancey|Cane River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-06|Surry|Mitchell River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|Graham|Big Snowbird Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|Madison|Big Laurel Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|Madison|Shelton Laurel Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|Madison|Spring Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|McDowell|Catawba River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|McDowell|Curtis Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-05|McDowell|Mill Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-04|Burke|Jacobs Fork|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-04|Caldwell|Wilson Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-04|Macon|Nantahala River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-04|Swain|Tuckaseigee River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Ashe|Big Horse Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Clay|Fires Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Henderson|North Mills River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Jackson|Tuckaseigee River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Wilkes|Elk Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-03|Wilkes|Reddies River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-02|Ashe|Helton Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-02|Wilkes|East Prong Roaring River|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  },
+  "2026-11-02|Wilkes|Stone Mountain Creek|Delayed Harvest": {
+   "at": "2026-11-15T17:37:27.143Z",
+   "skipped": "first run"
+  }
+ }
+}
