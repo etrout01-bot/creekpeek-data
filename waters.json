@@ -1,0 +1,1390 @@
+{
+ "_about": "Creek Peek waters that NC Wildlife stocks, for matching stocking alerts. Generated from the app (scripts/export-waters.cjs in creekpeek-app); regenerate when waters are added or renamed.",
+ "generated": "2026-11-15T16:29:21.526Z",
+ "waters": [
+  {
+   "id": "03550000",
+   "name": "Valley River at Tomotla",
+   "county": "Cherokee",
+   "n": "valleyriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03508050",
+   "name": "Tuckasegee River near Cullowhee",
+   "county": "Jackson",
+   "n": "tuckasegeeriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03439000",
+   "name": "French Broad River at Rosman",
+   "county": "Transylvania",
+   "n": "frenchbroadriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "02137727",
+   "name": "Catawba River near Pleasant Gardens",
+   "county": "McDowell",
+   "n": "catawbariver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "03505550",
+   "name": "Nantahala River near Hewitt",
+   "county": "Swain",
+   "n": "nantahalariver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "0347927162",
+   "name": "Buckeye Creek above Buckeye Lake",
+   "county": "Watauga",
+   "n": "buckeyecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "0347927164",
+   "name": "Buckeye Creek below Buckeye Lake",
+   "county": "Watauga",
+   "n": "buckeyecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03451000",
+   "name": "Swannanoa River at Biltmore",
+   "county": "Buncombe",
+   "n": "swannanoariver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03513000",
+   "name": "Tuckasegee River at Bryson City",
+   "county": "Swain",
+   "n": "tuckasegeeriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "02111000",
+   "name": "Yadkin River at Patterson",
+   "county": "Caldwell",
+   "n": "yadkinriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "02143040",
+   "name": "Jacob Fork at Ramsey",
+   "county": "Burke",
+   "n": "jacobfork",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "03463300",
+   "name": "South Toe River near Celo",
+   "county": "Yancey",
+   "n": "southtoeriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03510577",
+   "name": "Tuckasegee River at Barkers Creek",
+   "county": "Jackson",
+   "n": "tuckasegeeriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03441000",
+   "name": "Davidson River near Brevard",
+   "county": "Transylvania",
+   "n": "davidsonriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "0350011450",
+   "name": "Cartoogechaye Creek near Franklin",
+   "county": "Macon",
+   "n": "cartoogechayecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "03456991",
+   "name": "Pigeon River near Canton",
+   "county": "Haywood",
+   "n": "pigeonriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "02111500",
+   "name": "Reddies River at North Wilkesboro",
+   "county": "Wilkes",
+   "n": "reddiesriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "02111180",
+   "name": "Elk Creek at Elkville",
+   "county": "Wilkes",
+   "n": "elkcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "03479000",
+   "name": "Watauga River near Sugar Grove",
+   "county": "Watauga",
+   "n": "wataugariver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "02138520",
+   "name": "Catawba River below Lake James",
+   "county": "Burke",
+   "n": "catawbariver",
+   "dh": false,
+   "cls": "Special Regulation"
+  },
+  {
+   "id": "03455500",
+   "name": "West Fork Pigeon River above Lake Logan",
+   "county": "Haywood",
+   "n": "westforkpigeonriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "02068500",
+   "name": "Dan River near Francisco",
+   "county": "Stokes",
+   "n": "danriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891466",
+   "name": "(Big) Glade Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "biggladecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:12037013",
+   "name": "(Big) Hungry River, Henderson Co.",
+   "county": "Henderson",
+   "n": "bighungryriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19721177",
+   "name": "(Big) Snowbird Creek, Graham Co.",
+   "county": "Graham",
+   "n": "bigsnowbirdcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:12036525",
+   "name": "(Rocky) Broad River, Rutherford Co.",
+   "county": "Rutherford",
+   "n": "rockybroadriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19735191",
+   "name": "Alarka Creek, Swain Co.",
+   "county": "Swain",
+   "n": "alarkacreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9244894",
+   "name": "Ararat River, Surry Co.",
+   "county": "Surry",
+   "n": "araratriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9754536",
+   "name": "Armstrong Creek, McDowell Co.",
+   "county": "McDowell",
+   "n": "armstrongcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489310",
+   "name": "Bald Mountain Creek, Yancey Co.",
+   "county": "Yancey",
+   "n": "baldmountaincreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250256",
+   "name": "Basin Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "basincreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891856",
+   "name": "Beaver Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "beavercreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743320",
+   "name": "Beaverdam Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "beaverdamcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743454",
+   "name": "Beech Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "beechcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22163246",
+   "name": "Bent Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "bentcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6892166",
+   "name": "Big Horse Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "bighorsecreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6891536",
+   "name": "Big Laurel Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "biglaurelcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22161562",
+   "name": "Big Laurel Creek, Madison Co.",
+   "county": "Madison",
+   "n": "biglaurelcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6891076",
+   "name": "Big Pine Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "bigpinecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160194",
+   "name": "Big Pine Creek, Madison Co.",
+   "county": "Madison",
+   "n": "bigpinecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19486214",
+   "name": "Big Rock Creek, Mitchell Co.",
+   "county": "Mitchell",
+   "n": "bigrockcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891372",
+   "name": "Bledsoe Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "bledsoecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6890212",
+   "name": "Brush Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "brushcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19736159",
+   "name": "Buck Creek, Clay Co.",
+   "county": "Clay",
+   "n": "buckcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891646",
+   "name": "Buffalo Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "buffalocreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9251294",
+   "name": "Buffalo Creek, Caldwell Co.",
+   "county": "Caldwell",
+   "n": "buffalocreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19735549",
+   "name": "Burningtown Creek, Macon Co.",
+   "county": "Macon",
+   "n": "burningtowncreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22161472",
+   "name": "Cane Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "canecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22163558",
+   "name": "Cane Creek, Henderson Co.",
+   "county": "Henderson",
+   "n": "canecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19486664",
+   "name": "Cane Creek, Mitchell Co.",
+   "county": "Mitchell",
+   "n": "canecreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19489634",
+   "name": "Cane River, Yancey Co.",
+   "county": "Yancey",
+   "n": "caneriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9753782",
+   "name": "Carroll Creek, Burke Co.",
+   "county": "Burke",
+   "n": "carrollcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22163726",
+   "name": "Clear Creek, Henderson Co.",
+   "county": "Henderson",
+   "n": "clearcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19729770",
+   "name": "Connelly Creek, Swain Co.",
+   "county": "Swain",
+   "n": "connellycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743346",
+   "name": "Cove Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "covecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891590",
+   "name": "Cranberry Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "cranberrycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9251032",
+   "name": "Cub Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "cubcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19736217",
+   "name": "Cullasaja River, Macon Co.",
+   "county": "Macon",
+   "n": "cullasajariver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19730210",
+   "name": "Cullowhee Creek, Jackson Co.",
+   "county": "Jackson",
+   "n": "cullowheecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9754898",
+   "name": "Curtis Creek, McDowell Co.",
+   "county": "McDowell",
+   "n": "curtiscreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19729858",
+   "name": "Dark Ridge Creek, Jackson Co.",
+   "county": "Jackson",
+   "n": "darkridgecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250466",
+   "name": "Darnell Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "darnellcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19676771",
+   "name": "Davis Creek, Cherokee Co.",
+   "county": "Cherokee",
+   "n": "daviscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19729712",
+   "name": "Deep Creek, Swain Co.",
+   "county": "Swain",
+   "n": "deepcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160386",
+   "name": "Dillingham Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "dillinghamcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743516",
+   "name": "Dutch Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "dutchcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22165340",
+   "name": "East Fork French Broad River, Transylvania Co.",
+   "county": "Transylvania",
+   "n": "eastforkfrenchbroadriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19489860",
+   "name": "East Fork Grassy Creek, Mitchell Co.",
+   "county": "Mitchell",
+   "n": "eastforkgrassycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250300",
+   "name": "East Prong Roaring River, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "eastprongroaringriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9250714",
+   "name": "Fall Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "fallcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19674295",
+   "name": "Fires Creek, Clay Co.",
+   "county": "Clay",
+   "n": "firescreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9244890",
+   "name": "Fisher River (Cooper Creek), Surry Co.",
+   "county": "Surry",
+   "n": "fisherrivercoopercreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489846",
+   "name": "Grassy Creek, Mitchell Co.",
+   "county": "Mitchell",
+   "n": "grassycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:12037055",
+   "name": "Green River, Polk Co.",
+   "county": "Polk",
+   "n": "greenriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19730058",
+   "name": "Greens Creek, Jackson Co.",
+   "county": "Jackson",
+   "n": "greenscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6889978",
+   "name": "Helton Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "heltoncreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19674033",
+   "name": "Hyatt Creek, Cherokee Co.",
+   "county": "Cherokee",
+   "n": "hyattcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160314",
+   "name": "Ivy Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "ivycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9251238",
+   "name": "Joes Creek, Caldwell Co.",
+   "county": "Caldwell",
+   "n": "joescreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22151575",
+   "name": "Jonathans Creek, Haywood Co.",
+   "county": "Haywood",
+   "n": "jonathanscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19674073",
+   "name": "Junaluska Creek, Cherokee Co.",
+   "county": "Cherokee",
+   "n": "junaluskacreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9755174",
+   "name": "Little Buck Creek, McDowell Co.",
+   "county": "McDowell",
+   "n": "littlebuckcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9244420",
+   "name": "Little Fisher River, Surry Co.",
+   "county": "Surry",
+   "n": "littlefisherriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160246",
+   "name": "Little Ivy Creek, Madison Co.",
+   "county": "Madison",
+   "n": "littleivycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6890206",
+   "name": "Little River, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "littleriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22164788",
+   "name": "Little River, Transylvania Co.",
+   "county": "Transylvania",
+   "n": "littleriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9244814",
+   "name": "Lovills Creek, Surry Co.",
+   "county": "Surry",
+   "n": "lovillscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6892190",
+   "name": "Meadow Fork, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "meadowfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160178",
+   "name": "Meadow Fork, Madison Co.",
+   "county": "Madison",
+   "n": "meadowfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891962",
+   "name": "Meat Camp Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "meatcampcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22165176",
+   "name": "Middle Fork French Broad River, Transylvania Co.",
+   "county": "Transylvania",
+   "n": "middleforkfrenchbroadriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250484",
+   "name": "Middle Fork Reddies River, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "middleforkreddiesriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6892102",
+   "name": "Middle Fork South Fork New River, Watauga Co.",
+   "county": "Watauga",
+   "n": "middleforksouthforknewriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250370",
+   "name": "Middle Prong Roaring River, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "middleprongroaringriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9750472",
+   "name": "Mill Timber Creek, Avery Co.",
+   "county": "Avery",
+   "n": "milltimbercreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9245486",
+   "name": "Mitchell River, Surry Co.",
+   "county": "Surry",
+   "n": "mitchellriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6891534",
+   "name": "Nathans Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "nathanscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891964",
+   "name": "Norris Fork, Watauga Co.",
+   "county": "Watauga",
+   "n": "norrisfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9752370",
+   "name": "North Fork Catawba River, McDowell Co.",
+   "county": "McDowell",
+   "n": "northforkcatawbariver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22163674",
+   "name": "North Fork Mills River, Henderson Co.",
+   "county": "Henderson",
+   "n": "northforkmillsriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6891710",
+   "name": "North Fork New River, Ashe Co.",
+   "county": "Ashe",
+   "n": "northforknewriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9251630",
+   "name": "North Fork Reddies River, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "northforkreddiesriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:12037219",
+   "name": "North Pacolet River, Polk Co.",
+   "county": "Polk",
+   "n": "northpacoletriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19484148",
+   "name": "North Toe River, Avery Co.",
+   "county": "Avery",
+   "n": "northtoeriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489682",
+   "name": "North Toe River, Mitchell Co.",
+   "county": "Mitchell",
+   "n": "northtoeriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6891886",
+   "name": "Old Fields Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "oldfieldscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19735187",
+   "name": "Panther Creek, Graham Co.",
+   "county": "Graham",
+   "n": "panthercreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9244222",
+   "name": "Pauls Creek, Surry Co.",
+   "county": "Surry",
+   "n": "paulscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891716",
+   "name": "Peak Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "peakcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250290",
+   "name": "Pike Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "pikecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891538",
+   "name": "Pine Swamp Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "pineswampcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891696",
+   "name": "Piney Fork, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "pineyfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891366",
+   "name": "Prathers Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "pratherscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489786",
+   "name": "Price Creek, Yancey Co.",
+   "county": "Yancey",
+   "n": "pricecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159752",
+   "name": "Puncheon Fork, Madison Co.",
+   "county": "Madison",
+   "n": "puncheonfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160724",
+   "name": "Reems Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "reemscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22150333",
+   "name": "Richland Creek, Haywood Co.",
+   "county": "Haywood",
+   "n": "richlandcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891740",
+   "name": "Roan Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "roancreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160136",
+   "name": "Roaring Fork, Madison Co.",
+   "county": "Madison",
+   "n": "roaringfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250372",
+   "name": "Roten Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "rotencreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19721061",
+   "name": "Santeetlah Creek, Graham Co.",
+   "county": "Graham",
+   "n": "santeetlahcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19730192",
+   "name": "Savannah Creek, Jackson Co.",
+   "county": "Jackson",
+   "n": "savannahcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19729878",
+   "name": "Scott Creek, Jackson Co.",
+   "county": "Jackson",
+   "n": "scottcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22161560",
+   "name": "Shelton Laurel Creek, Madison Co.",
+   "county": "Madison",
+   "n": "sheltonlaurelcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19678263",
+   "name": "Shuler Creek, Cherokee Co.",
+   "county": "Cherokee",
+   "n": "shulercreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159726",
+   "name": "Shut-In Creek, Madison Co.",
+   "county": "Madison",
+   "n": "shutincreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6892220",
+   "name": "South Fork New River, Ashe Co.",
+   "county": "Ashe",
+   "n": "southforknewriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6892036",
+   "name": "South Fork New River, Watauga Co.",
+   "county": "Watauga",
+   "n": "southforknewriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250574",
+   "name": "South Fork Reddies River, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "southforkreddiesriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250800",
+   "name": "South Prong Lewis Fork, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "southpronglewisfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159630",
+   "name": "Spillcorn Creek, Madison Co.",
+   "county": "Madison",
+   "n": "spillcorncreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159856",
+   "name": "Spring Creek, Madison Co.",
+   "county": "Madison",
+   "n": "springcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19484168",
+   "name": "Squirrel Creek, Avery Co.",
+   "county": "Avery",
+   "n": "squirrelcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19735213",
+   "name": "Stecoah Creek, Graham Co.",
+   "county": "Graham",
+   "n": "stecoahcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250230",
+   "name": "Stone Mountain Creek, Wilkes Co.",
+   "county": "Wilkes",
+   "n": "stonemountaincreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9250738",
+   "name": "Stony Fork, Watauga Co.",
+   "county": "Watauga",
+   "n": "stonyfork",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6891758",
+   "name": "Three Top Creek, Ashe Co.",
+   "county": "Ashe",
+   "n": "threetopcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19721123",
+   "name": "Tulula Creek, Graham Co.",
+   "county": "Graham",
+   "n": "tululacreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19674431",
+   "name": "Tusquitee Creek, Clay Co.",
+   "county": "Clay",
+   "n": "tusquiteecreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19721115",
+   "name": "West Buffalo Creek, Graham Co.",
+   "county": "Graham",
+   "n": "westbuffalocreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22165032",
+   "name": "West Fork French Broad River, Transylvania Co.",
+   "county": "Transylvania",
+   "n": "westforkfrenchbroadriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9751468",
+   "name": "Wilson Creek, Caldwell Co.",
+   "county": "Caldwell",
+   "n": "wilsoncreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19721443",
+   "name": "Yellow Creek, Graham Co.",
+   "county": "Graham",
+   "n": "yellowcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9249040",
+   "name": "Big Elkin Creek, Surry Co.",
+   "county": "Surry",
+   "n": "bigelkincreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:6892188",
+   "name": "Cranberry Creek, Alleghany Co.",
+   "county": "Alleghany",
+   "n": "cranberrycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250848",
+   "name": "Elk Creek, Watauga Co.",
+   "county": "Watauga",
+   "n": "elkcreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:12037753",
+   "name": "Green River, Henderson Co.",
+   "county": "Henderson",
+   "n": "greenriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9750508",
+   "name": "Linville River, Avery Co.",
+   "county": "Avery",
+   "n": "linvilleriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19674019",
+   "name": "Slickrock Branch, Cherokee Co.",
+   "county": "Cherokee",
+   "n": "slickrockbranch",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160446",
+   "name": "Stony Creek, Buncombe Co.",
+   "county": "Buncombe",
+   "n": "stonycreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19730010",
+   "name": "Tuckasegee River at Dillsboro",
+   "county": "Jackson",
+   "n": "tuckasegeeriver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:19735571",
+   "name": "Nantahala River below Whiteoak Creek",
+   "county": "Macon",
+   "n": "nantahalariver",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:9754924",
+   "name": "Mill Creek at Old Fort",
+   "county": "McDowell",
+   "n": "millcreek",
+   "dh": true,
+   "cls": "Delayed Harvest"
+  },
+  {
+   "id": "nwm:6889808",
+   "name": "Big Horse Creek (Hatchery Supported), Ashe Co.",
+   "county": "Ashe",
+   "n": "bighorsecreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9244344",
+   "name": "Ararat River (Hatchery Supported), Surry Co.",
+   "county": "Surry",
+   "n": "araratriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743824",
+   "name": "Laurel Creek (Hatchery Supported), Watauga Co.",
+   "county": "Watauga",
+   "n": "laurelcreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9250416",
+   "name": "East Prong Roaring River (Hatchery Supported), Wilkes Co.",
+   "county": "Wilkes",
+   "n": "eastprongroaringriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19743552",
+   "name": "Elk River (Hatchery Supported), Avery Co.",
+   "county": "Avery",
+   "n": "elkriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9752982",
+   "name": "Linville River (Hatchery Supported), Burke Co.",
+   "county": "Burke",
+   "n": "linvilleriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9751904",
+   "name": "Wilson Creek (Hatchery Supported), Caldwell Co.",
+   "county": "Caldwell",
+   "n": "wilsoncreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:9754952",
+   "name": "Catawba River (Hatchery Supported), McDowell Co.",
+   "county": "McDowell",
+   "n": "catawbariverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19486682",
+   "name": "Cane Creek (Hatchery Supported), Mitchell Co.",
+   "county": "Mitchell",
+   "n": "canecreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489748",
+   "name": "North Toe River (Hatchery Supported), Mitchell Co.",
+   "county": "Mitchell",
+   "n": "northtoeriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19489848",
+   "name": "Cane River (Hatchery Supported), Yancey Co.",
+   "county": "Yancey",
+   "n": "caneriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19674339",
+   "name": "Fires Creek (Hatchery Supported), Clay Co.",
+   "county": "Clay",
+   "n": "firescreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19721155",
+   "name": "(Big) Snowbird Creek (Hatchery Supported), Graham Co.",
+   "county": "Graham",
+   "n": "bigsnowbirdcreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:19735643",
+   "name": "Nantahala River (Hatchery Supported), Macon Co.",
+   "county": "Macon",
+   "n": "nantahalariverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159754",
+   "name": "Big Laurel Creek (Hatchery Supported), Madison Co.",
+   "county": "Madison",
+   "n": "biglaurelcreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22159520",
+   "name": "Shelton Laurel Creek (Hatchery Supported), Madison Co.",
+   "county": "Madison",
+   "n": "sheltonlaurelcreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22160276",
+   "name": "Spring Creek (Hatchery Supported), Madison Co.",
+   "county": "Madison",
+   "n": "springcreekhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:12036943",
+   "name": "Green River (Hatchery Supported), Polk Co.",
+   "county": "Polk",
+   "n": "greenriverhatcherysupported",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22152709",
+   "name": "West Fork Pigeon River, Haywood Co.",
+   "county": "Haywood",
+   "n": "westforkpigeonriver",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  },
+  {
+   "id": "nwm:22151969",
+   "name": "Cold Springs Creek, Haywood Co.",
+   "county": "Haywood",
+   "n": "coldspringscreek",
+   "dh": false,
+   "cls": "Hatchery Supported"
+  }
+ ]
+}
