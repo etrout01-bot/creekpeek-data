@@ -1,7 +1,7 @@
 {
  "version": 1,
- "checked": "2026-11-17T11:07:19.435Z",
- "updated": "2026-11-16T17:37:23.030Z",
+ "checked": "2026-11-17T17:37:20.116Z",
+ "updated": "2026-11-17T17:37:20.116Z",
  "schedule": [
   {
    "county": "Cumberland",
@@ -2291,7 +2291,7 @@
    "water": "Stone Mountain Creek"
   }
  ],
- "recentRange": "November 16, 2026",
+ "recentRange": "November 16 thru November 17, 2026",
  "aliases": {
   "Jackson|Tuckaseigee River": "Tuckasegee River",
   "Swain|Tuckaseigee River": "Tuckasegee River",
@@ -2320,15 +2320,15 @@
  "status": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-17T11:07:19.435Z"
+   "at": "2026-11-17T17:37:20.116Z"
   },
   "delayedHarvest": {
    "ok": true,
-   "at": "2026-11-17T11:07:19.435Z"
+   "at": "2026-11-17T17:37:20.116Z"
   },
   "recentlyStocked": {
    "ok": true,
-   "at": "2026-11-17T11:07:19.435Z"
+   "at": "2026-11-17T17:37:20.116Z"
   }
  }
 }
