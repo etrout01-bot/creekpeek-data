@@ -1,3 +1,5 @@
+name: Check partners
+
 # Checks partners.json and the partner logos every time they change.
 # A red X on the commit means something needs fixing: open the run to see what.
 on:
