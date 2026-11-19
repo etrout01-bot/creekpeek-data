@@ -1,0 +1,28 @@
+# Checks partners.json and the partner logos every time they change.
+# A red X on the commit means something needs fixing: open the run to see what.
+on:
+  push:
+    paths:
+      - 'partners.json'
+      - 'partners/**'
+      - 'partner-targets.json'
+      - 'scripts/check-partners.mjs'
+  pull_request:
+    paths:
+      - 'partners.json'
+      - 'partners/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check partners.json
+        run: node scripts/check-partners.mjs
