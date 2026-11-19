@@ -32,3 +32,7 @@ GitHub pauses scheduled jobs in a public repository after 60 days with no commit
 FIXTURES=path/to/saved/pages node scripts/update-stocking.mjs
 ```
 The folder holds `hs_schedule.pdf`, `dh.html`, `paws.html` and, optionally, `dh.csv`.
+
+## Partners (fly shop sponsors)
+
+`partners.json` and the logos in `partners/` are Creek Peek's local partner listings. See **PARTNERS.md** for how to add a shop and **RIVER-IDS.md** for river and basin ids. `scripts/check-partners.mjs` checks every change (workflow: check-partners.yml); `partner-targets.json` is the list of valid ids it checks against, generated from the app.

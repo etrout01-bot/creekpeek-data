@@ -1,0 +1,47 @@
+{
+  "partners": [
+    {
+      "id": "sample-fly-shop",
+      "name": "Sample Fly Shop",
+      "test": true,
+      "type": "river",
+      "rivers": ["03513000", "nwm:19735571"],
+      "start": "2026-11-19",
+      "end": "2027-12-31",
+      "logo": "partners/sample-fly-shop.png",
+      "tagline": "Guides, flies and local know-how",
+      "links": {
+        "shop": "https://example.com/shop",
+        "podcast": "https://example.com/podcast",
+        "phone": "828-555-0100",
+        "directions": "35.4316,-83.4475"
+      },
+      "hatch": {
+        "updated": "2026-11-19",
+        "text": "Sample report: blue-winged olives midday, midges early. Try a #18 BWO emerger in the slower runs."
+      },
+      "placements": {
+        "card": ["now", "rules", "favorites"],
+        "hatch": ["now"],
+        "buttons": ["shop", "podcast", "phone", "directions"]
+      },
+      "notes": "Test entry. Shows only on phones with partner test mode on."
+    },
+    {
+      "id": "sample-outfitter",
+      "name": "Sample Watershed Outfitter",
+      "test": true,
+      "type": "watershed",
+      "watersheds": ["tuckasegee"],
+      "start": "2026-11-19",
+      "end": "2027-12-31",
+      "logo": "partners/sample-outfitter.png",
+      "tagline": "Guided trips across the Tuckasegee basin",
+      "links": {
+        "shop": "https://example.com/outfitter",
+        "book": "https://example.com/book"
+      },
+      "notes": "Test entry. Shares Bryson City with Sample Fly Shop 2 to 1, and covers every water in the Tuckasegee basin."
+    }
+  ]
+}
